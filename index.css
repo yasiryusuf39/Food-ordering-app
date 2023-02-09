@@ -1,0 +1,215 @@
+/* main section */
+body {
+    margin: 0;
+    font-family: 'Smythe', cursive;
+    text-align: center;
+    background: #fefae0;
+    
+} 
+button{
+    background: #2f3e46;
+    border-radius: 3.89px;
+    width: 100%;
+    padding: 18px 0;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    margin: auto;
+}
+main {
+    margin: 0 auto;
+    
+}
+
+header {
+    margin: 0 auto;
+    height: 167px;
+
+    
+}
+/* Icons */
+i {
+    size: 32px;
+    padding: 12px;
+    color: #3C3C3C;
+
+}
+#add-food {
+    border-radius: 50%;
+    height: 50px;
+    border: 2px solid #DEDEDE;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+/* Food listing */
+#items-icon {
+    width: 270px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: left;
+
+}
+
+.food-image {
+    /* font-family: 'Inter'; */
+    /* font-size: 78.72px; */
+    /* font-weight: 400; */
+    width: 70px;
+    /* height: 89px; */
+    margin:45px 31px 51px 0;
+}
+
+#food-names {
+    font-size: 28px;
+
+}
+#food-ingredients {
+    font-size: 16px;
+}
+.prices {
+    font-size: 20px;
+}
+
+#food-names, #food-ingredients, #food-prices{
+    padding: 4.5px 0 4.5px 0;
+    margin: 0;
+}
+
+
+#items-container {
+    width: 508px;
+    border-bottom: 1px solid #D2D2D2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    background: #84A98C;
+    padding: 0 46px;
+    /* flex-direction: column */
+}
+
+/* order section */
+#order-render{
+}
+
+.order-render{
+    background: #84A98C;
+    padding: 0 46px 30px 46px;;
+    width: 508px;
+    margin: 0 auto;    
+}
+
+.your-order{
+    font-size: 28px;
+    padding: 55px 0 30px 0;
+}
+
+p {
+    margin: 0;
+}
+
+.order-details{
+    padding: 0 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order-item-names{
+    display: flex;
+    align-items: center;
+}
+
+.order-item-name-added{
+    padding-right: 13px;
+    font-size: 28px
+}
+
+.remove-added{
+    font-size: 14px;
+    color: #BBBBBB;
+}
+
+.order-container {
+    margin: 0 auto 0 auto;
+    border-bottom: 2px solid black;
+}
+
+.total-calc{
+    padding: 13px 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total {
+    font-size: 28px;
+}
+
+/* Payment section */
+
+.payment-details{
+    width: 524px;
+    background: #52796F;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    display: none;
+    top: 100px;
+    left: 0;
+    right: 0;
+    border-radius: 3.89px;
+    
+}
+
+.request-details{
+    display: flex;
+    flex-direction: column;
+    width: 475.91px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+input{
+    padding: 16px 0 16px 26px;
+    border-radius: 3.89px;
+    margin: 11px 0;
+    border: 1.3px solid #757575;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
+
+.card-details{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0 35px 0;
+}
+
+#pay-btn {
+    margin-top: 35px;
+}
+
+/* Compliment */
+
+.order-complete {
+    width: 504px;
+    margin: 45px auto;
+    padding: 52px 0;
+    background-color: #CAD2C5;
+}
+
+.compliment {
+    width: 400px;
+    font-size: 32px;
+    margin: 0 auto;
+}

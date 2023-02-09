@@ -1,0 +1,56 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <!-- CSS -->
+        <link rel="stylesheet" href="index.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Smythe&display=swap" rel="stylesheet">
+        <!-- Font Awesome CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header><img src="images/header.png"></header>
+        <main>
+            <div class="food-render" id="food-render">
+                <!-- food render here -->
+            </div>
+            
+            <div class="order-render" id="order-render">
+            <!-- Order render here -->
+            <div class="order-plus-total-container">
+                <div class='order-container'>
+                    <div class="your-order">
+                        <p>Your order</p>
+                    </div>
+                    <div id="order-details">
+                        
+                    </div>
+                </div>
+                 <div class="total-calc">
+                    <p class="total">Total price:</p>
+                    <p class="prices" id="total-price">$<span id="total"></span></p>
+                </div>
+                <button id="complete-order-btn">Complete Order</button>
+            </div>
+            </div>
+            
+            <div class="payment-details" id="payment-details">
+                <!-- Payment tab goes here -->
+                <div class="request-details">
+                    <p class="card-details">Enter card details</p>
+                    <input type="text" placeholder="Enter your name" id="name-input">
+                    <input type="number" placeholder="Enter card number">
+                    <input type="number" placeholder="Enter CVV">
+                    <button id="pay-btn">Pay</button>
+                </div>
+            </div>
+            
+            <!-- <div class="order-complete">
+                <p class="compliment">Thanks, James! Your order is on its way!</p>
+            </div> -->
+        </main>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
+
