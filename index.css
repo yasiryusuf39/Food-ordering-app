@@ -48,23 +48,24 @@ i {
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
-}
-
-#add-food:hover{
-    background: #CAD2C5;
+    /* flex-direction: column; */
 }
 /* Food listing */
 #items-icon {
     width: 270px;
     display: flex;
     align-items: center;
+    /* justify-content: center; */
     text-align: left;
 
 }
 
 .food-image {
+    /* font-family: 'Inter'; */
+    /* font-size: 78.72px; */
+    /* font-weight: 400; */
     width: 70px;
+    /* height: 89px; */
     margin:45px 31px 51px 0;
 }
 
@@ -99,11 +100,12 @@ i {
 
 /* order section */
 #order-render{
+    background: #84A98C;
 }
 
 .order-render{
     background: #84A98C;
-    padding: 0 46px;
+    padding: 0 46px 30px 46px;;
     width: 508px;
     margin: 0 auto;    
 }
@@ -137,7 +139,6 @@ p {
 .remove-added{
     font-size: 14px;
     color: #BBBBBB;
-    cursor: pointer;
 }
 
 .order-container {
