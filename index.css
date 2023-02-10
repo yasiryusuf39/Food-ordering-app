@@ -48,6 +48,11 @@ i {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+
+#add-food:hover{
+    background: #CAD2C5;
     /* flex-direction: column; */
 }
 /* Food listing */
@@ -55,17 +60,12 @@ i {
     width: 270px;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     text-align: left;
 
 }
 
 .food-image {
-    /* font-family: 'Inter'; */
-    /* font-size: 78.72px; */
-    /* font-weight: 400; */
     width: 70px;
-    /* height: 89px; */
     margin:45px 31px 51px 0;
 }
 
@@ -139,6 +139,7 @@ p {
 .remove-added{
     font-size: 14px;
     color: #BBBBBB;
+    cursor: pointer;
 }
 
 .order-container {
