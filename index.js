@@ -93,7 +93,6 @@ function itemRender(){
     <div id="items-container">
         <div id="items-icon">
             <img src="${food.emoji}" class="food-image">
-            <!-- <p class="food-image">🍔</p> -->
                 <div id="item-details">
                         <p id="food-names">${food.name}</p>
                         <p id="food-ingredients">${food.ingredients}</p>
@@ -120,7 +119,6 @@ function itemRender(){
             document.getElementById('order-render').style.display = 'block'
             
         }
-        // console.log(selectedItem)
     }
     render()
     
